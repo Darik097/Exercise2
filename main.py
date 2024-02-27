@@ -93,11 +93,8 @@ try:
         print(f" Победы: {win}   -    Поражения: {lose}   -   Ничьи: {draw}")
         for i in moves:
             print(f" {i}: {moves[i]}")
-<<<<<<< HEAD
-=======
-
             print("ИЗМЕНИЛЛЛЛЛ")
->>>>>>> ff0ecb3 (Initial commit)
+
 except ValueError:
     print("Ошибка, ты мог ввести цифры")
 except:
